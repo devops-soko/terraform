@@ -1,0 +1,1 @@
+my_region = "ap-northeast-1"
