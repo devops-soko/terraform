@@ -43,7 +43,8 @@ ex2. The doc about vsphere : https://registry.terraform.io/providers/hashicorp/v
 - .tf : The file implementing IaC through terraform blocks such as provider and resource
 - .tfstate : The file about status of resources created through terraform / The file as a result of running terraform
 ```
-cf 1. The state file indicates the state of the resource at the time of tf execution, so it does not indicate the real-time current state of the resource
+cf 1. The state file indicates the state of the resource at the time of tf execution, 
+so it does not indicate the real-time current state of the resource
 
 cf 2. Therefore, It's important that the state file matches with the actual infrastructure
 ```
