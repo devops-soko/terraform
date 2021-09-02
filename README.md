@@ -27,7 +27,7 @@ step3. Save state file
 - Azure
 - GCP
 - VMware
-...
+- etc.
 
 
 
@@ -42,14 +42,16 @@ ex2. The doc about vsphere : https://registry.terraform.io/providers/hashicorp/v
 ## 3. Files related to Terraform
 - .tf : The file implementing IaC through terraform blocks such as provider and resource
 - .tfstate : The file about status of resources created through terraform / The file as a result of running terraform
-cf. The state file indicates the state of the resource at the time of tf execution, so it does not indicate the real-time current state of the resource
+```
+cf 1. The state file indicates the state of the resource at the time of tf execution, so it does not indicate the real-time current state of the resource
 
-cf. Therefore, It's important that the state file matches with the actual infrastructure
+cf 2. Therefore, It's important that the state file matches with the actual infrastructure
+```
 - terraform.tfvars : The file that stores the actual value of variables in the tf file 
 - backend : The remote space to store terraform state files
-
+```
 cf. why we use backend : Locking (disallow one person to use what is in use)
-
+```
 
 ## 4. Components in Terraform Files
 - provider : A module that connects terraform and external services
