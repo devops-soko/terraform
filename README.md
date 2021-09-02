@@ -27,7 +27,6 @@ step3. Save state file
 - Azure
 - GCP
 - VMware
-
 ...
 
 
@@ -133,13 +132,13 @@ $unzip [downloaded_terraform_file_name].zip
 $sudo mv terraform /usr/local/bin 
 ```
 cf. the link to download file
-- the lates version of Terraform files : https://www.terraform.io/downloads.html
+- The lates version of Terraform files : https://www.terraform.io/downloads.html
 - Previous versions of Terraform files : https://releases.hashicorp.com/terraform/
 
 
 ## 7. Advanced Content
 Function (https://www.terraform.io/docs/language/functions/index.html)
-- Definition :
+- Definition : embedded functions to create resources more efficiently and briefly
 - Features 
   - It is impossbile to make own function yet
   - Only embedded functions are available 
